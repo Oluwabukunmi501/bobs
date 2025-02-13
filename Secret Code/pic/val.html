@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>For My Love ❤️</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Our Love Story</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#message">A Message for You</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Our Love Story</h2>
+        <p>From the moment we met, you have filled my life with joy, love, and laughter. Every moment with you is special, and I cherish every second we spend together.</p>
+    </section>
+    <section id="memories">
+        <h2>Our Beautiful Memories</h2>
+        <p>Remember our first date? The late-night talks? The laughter and adventures? Here’s to all the amazing moments we’ve shared and many more to come! 💕</p>
+    </section>
+    <section id="message">
+        <h2>A Special Message for You</h2>
+        <p>My love, you mean the world to me. No words can fully describe how much I adore you. Thank you for being the most amazing person in my life. I love you endlessly. 💖</p>
+    </section>
+    <button id="surprise-btn">Click for a Surprise!</button>
+    <div id="surprise-message" style="display:none;">
+        <h2>💖 I Love You! 💖</h2>
+        <p>You are my heart, my happiness, my everything! Forever and always, my love. 💞</p>
+        <img src="" alt="">
+    </div>
+    <script>
+        document.getElementById('surprise-btn').addEventListener('click', function() {
+            document.getElementById('surprise-message').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
